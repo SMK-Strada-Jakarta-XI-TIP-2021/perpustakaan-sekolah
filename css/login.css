@@ -1,0 +1,192 @@
+/* css */
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background: darkslategrey;
+    font-family: sans-serif;
+    color: #000;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    min-height: 500px;
+    max-width: 350px;
+    background: cadetblue;
+    border-radius: 2px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: hi 0.5s;
+    transform: translateZ(0px);
+}
+.container * {
+    box-sizing: border-box;
+}
+.wrapper {
+    flex: 1;
+    white-space: nowrap;
+    position: relative;
+    transition: all 0.4s;
+    display: flex;
+}
+.wrapper .form {
+    min-width: 100%;
+    padding: 20px 15px 0;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    width: 25%;
+    height: 10vh;
+}
+.form h2{
+    margin-bottom: 0;
+    color: #333333;
+}
+.form p{
+    margin-top: 10px;
+}
+.wrapper .form:nth-of-type(odd) .input {
+    transform: translateX(-100%) scale(0.5);
+}
+
+.wrapper .form .input {
+    transition: all 1s;
+    opacity: 0;
+    transition-delay: 0s;
+}
+
+.wrapper .form .title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+    line-height: 14px;
+}
+.wrapper .form .input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.wrapper .form input.text {
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 10px;
+    color: black;
+    outline: none;
+}
+
+.wrapper .form input[type=submit] {
+    background: blue;
+    color: #f6f7f9;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.tabs {
+    max-height: 50px;
+    height: 50px;
+    display: flex;
+    
+}
+
+.tabs .tab {
+    flex: 1;
+    color: black;    
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.2s;
+}
+
+.tabs .tab .text {
+    font-size: 14px;
+    transform: scale(odd);
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.tabs .tab .text:hover {
+   text-decoration: underline;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio]:nth-of-type(odd):checked ~ .tabs .tab:nth-of-type(odd) {
+    display: none;
+    color: black;
+}
+
+input[type=radio]:nth-of-type(odd):checked ~ .tabs .tab:nth-of-type(odd) .text {
+    transform: scale(0.9);
+}
+
+input[type=radio]:nth-of-type(odd):checked ~ .wrapper {
+    transform: translateX(0%);
+}
+
+input[type=radio]:nth-of-type(odd):checked ~ .wrapper .form:nth-of-type(odd) .input {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s;
+}
+
+input[type=radio]:nth-of-type(odd):checked ~ .wrapper .form:nth-of-type(odd) .input:nth-child(odd) {
+    transition-delay: 0.2s;
+    transition-delay: 0.6s;
+    transition-delay: 1s;
+}
+
+input[type=radio]:nth-of-type(odd):checked ~ .wrapper .form:nth-of-type(odd) .input:nth-child(even) {
+    transition-delay: 0.4s;
+    transition-delay: 0.8s;
+}
+
+input[type=radio]:nth-of-type(even):checked ~ .tabs .tab:nth-of-type(even) {
+    display: none;
+    color: #3f4c7f;
+}
+
+input[type=radio]:nth-of-type(even):checked ~ .tabs .tab:nth-of-type(even) .text {
+    transform: scale(0.9);
+}
+
+input[type=radio]:nth-of-type(even):checked ~ .wrapper {
+    transform: translateX(-100%);
+}
+
+input[type=radio]:nth-of-type(even):checked ~ .wrapper .form:nth-of-type(even) .input {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s;
+}
+
+input[type=radio]:nth-of-type(even):checked ~ .wrapper .form:nth-of-type(even) .input:nth-child(odd) {
+    transition-delay: 0.2s;
+    transition-delay: 0.6s;
+    transition-delay: 1s;
+}
+
+input[type=radio]:nth-of-type(even):checked ~ .wrapper .form:nth-of-type(even) .input:nth-child(even) {
+    transition-delay: 0.4s;
+    transition-delay: 0.8s;
+}
