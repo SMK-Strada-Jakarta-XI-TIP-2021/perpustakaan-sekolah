@@ -1,0 +1,100 @@
+/* edit background  */
+body {
+    background: url(../assets/ciprian-boiciuc-CXdeJI3bD2U-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: 0 -500px;
+}
+
+/* edit login */
+.login {
+    background-color: rgba(142, 202, 302, 0.9);
+    margin: 100px auto;
+    border-radius: 10px;
+    border: 10px;
+    width: fit-content;
+}
+
+.login .wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h1 {
+    color: #023047;
+    padding-bottom: 20px;
+    padding-top: 14px;
+}
+
+.login input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #023047;
+    color:#8ECAE6;
+}
+
+.login input::placeholder {
+    color: #219EBC;
+}
+
+.login-username.wrapper, .login-password.wrapper {
+    flex-direction: row;
+}
+
+.login-username {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #023047;
+    background-color: #023047;
+    border-radius: 10px;
+}
+
+.login-password {
+    padding: 10px 11px;
+    border: 1px solid #023047;
+    border-radius: 10px;
+    background-color: #023047;
+}
+
+.login .fa-user-alt, .fa-lock {
+    padding-right: 8px;
+    color: #219EBC;
+}
+
+.btn-login {
+    padding: 10px 25px;
+    color: #219EBC;
+    background-color: #023047;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    font-size: 12px;
+    font-weight: 400;
+    color:#023047;
+    padding-bottom: 40px;
+    padding-right: 140px;
+    padding-top: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color:#023047;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p a {
+    color: #FB8500;
+    text-decoration: underline;
+    font-weight: 700;
+}
