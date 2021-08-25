@@ -28,39 +28,39 @@ p {
     margin: 0;
 }
 
-p a, #body div#content div#services div.section div span a {
+p a, main div#services div.section div span a {
     color: #736e5f;
 }
 
-p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li h2 a:hover, #body div#content div#blog div.section ul li p a.readmore:hover, #body div#content div#home div.sidebar ul li p a.readmore:hover, #body div#content div#blog div.section ul li h2 a:hover, #body div#content div#services div.section div span a:hover {
+p a:hover, footer div.last div a:hover, main div#produk ul li h2 a:hover, main div#home div.sidebar ul li p a.readmore:hover, main div#services div.section div span a:hover {
     color: #898066;
 }
 
 /* header */
-#header {
+header {
     background: url(../images/bg-pattern.jpg) repeat;
     border-bottom: 1px solid #000000;
     height: 139px;
 }
 
-#header div {
+header nav {
     overflow: hidden;
     padding: 0 0 0 10px;
 }
 
-#header div a#logo {
+header a#logo {
     display: block;
     float: left;
-    padding: 42px 0 0;
+    padding: 10px 0 0;
     outline: none;
     text-decoration: none;
-    font-size: -webkit-xxx-large;
+    font-size: 25px;
     font-variant-caps: unicase;
     align-content: center;
     color: burlywood;
 }
 
-#header div ul {
+header nav ul {
     float: right;
     list-style: none;
     margin: 0;
@@ -68,18 +68,18 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     padding: 0;
 }
 
-#header div ul li {
+header nav ul li {
     border-left: 1px solid #282725;
     float: left;
     height: 103px;
     padding: 0 20px;
 }
 
-#header div ul li:first-child {
+header nav ul li:first-child {
     border: none;
 }
 
-#header div ul li a {
+header nav ul li a {
     color: #736e5f;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
@@ -88,27 +88,27 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     text-decoration: none;
 }
 
-#header div ul li.current a, #header div ul li a:hover {
+header nav ul li.current a, header nav ul li a:hover {
     border-bottom: 1px solid #c9bb90;
     color: #c9bb90;
     padding: 0 0 3px;
 }
 
-#header div ul li a:hover {
+header nav ul li a:hover {
     border-bottom: none;
 }
 
 /* body */
-#body {
+main {
     background: url(../images/bg-content.jpg) repeat-x;
     width: 100%;
 }
 
-#body div#featured {
+main div#wrapper {
     padding: 10px 10px 0;
 }
 
-#body div#featured h1 {
+main div#wrapper h1 {
     color: #8e7835;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 48px;
@@ -118,7 +118,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     padding: 47px 0;
 }
 
-#body div#featured h3 {
+main div#wrapper h3 {
     color: #8e7835;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 26px;
@@ -129,18 +129,18 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     margin: 0;
 }
 
-#body div#featured h3 a {
+main div#wrapper h3 a {
     color: #8e7835;
     border-bottom: 1px solid #8e7835;
     text-decoration: none;
 }
 
-#body div#featured div.section {
+main div#wrapper div.section {
     overflow: hidden;
     padding: 70px 0 50px;
 }
 
-#body div#featured div.section img {
+main div#wrapper div.section img {
     display: block;
     float: left;
     margin: 5px 0 0;
@@ -148,14 +148,14 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     margin-left: 20px;
 }
 
-#body div#featured div.section div {
+main div#wrapper div.section div {
     float: right;
     width: 42%;
     margin-right: 50px;
     font-size: 15px;
 }
 
-#body div#featured div.section div h2 {
+main div#wrapper div.section div h2 {
     color: #8e7835;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 26px;
@@ -166,30 +166,30 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 490px;
 }
 
-#body div#featured div.section div h2 a {
+main div#wrapper div.section div h2 a {
     border-bottom: 1px solid #8e7835;
     color: #8e7835;
     text-decoration: none;
 }
 
-#body div#featured div.section div p {
+main div#wrapper div.section div p {
     letter-spacing: 0.05em;
     text-align: justify;
 }
 
-#body div#featured div.first {
+main div#wrapper div.first {
     float: left;
     width: 50%;
     margin-right: 25px;
 }
 
-#body div#featured div.last {
+main div#wrapper div.last {
     float: right;
     width: 48%;
     list-style: none;
 }
 
-#body div#featured div.first div {
+main div#wrapper div.first div {
     float: left;
     font-family: Georgia, "Times New Roman", Times, serif;
     text-align: center;
@@ -197,7 +197,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 50%;
 }
 
-#body div#featured div.first div h2 {
+main div#wrapper div.first div h2 {
     color: #8e7835;
     font-size: 34px;
     font-weight: normal;
@@ -207,14 +207,14 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     padding: 0 0 40px;
 }
 
-#body div#featured div.first div p {
+main div#wrapper div.first div p {
     line-height: 25px;
     font-size: larger;
     text-align: center;
     margin: 0 20px 0 20px;
 }
 
-#body div#featured div.first div a#shopnow {
+main div#wrapper div.first div a#shopnow {
     background: #736e5f;
     border-radius: 3px;
     color: #ffffff;
@@ -228,23 +228,23 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     text-decoration: none;
 }
 
-#body div#featured div.first div a#shopnow:hover, #footer div div.last form input#go:hover, #body div#content div#contact div form input#submit:hover {
+main div#wrapper div.first div a#shopnow:hover, footer div.last form input#go:hover, main div#contact div form input#submit:hover {
     background: #857c61;
 }
 
-#body div#featured div.first span {
+main div#wrapper div.first span {
     display: block;
     float: right;
     margin-top: 15px;
 }
 
-#body div#featured div.first span img {
+main div#wrapper div.first span img {
     display: block;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
 }
 
-#body div#content {
+main {
     background: url(../images/bg-pattern.jpg) repeat;
     border-bottom: 2px solid #000000;
     border-top: 2px solid #000000;
@@ -253,23 +253,23 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
 }
 
 /* beranda */
-#body div#content div#home, #body div#content div#product, #body div#content div#services {
+main div#home, main div#produk, main div#services {
     overflow: hidden;
     width: 98%;
     margin-left: 20px;
 }
 
-#body div#content div#home div.section {
+main div#home div.section {
     float: left;
     padding: 0 0 0 10px;
     width: 100%;
 }
 
-#body div#content div#home div.section ul li {
+main div#home div.section ul li {
     width: 200px;
 }
 
-#body div#content div#home h4, #footer div h4 {
+main div#home h4, footer h4 {
     color: #c9bb90;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
@@ -279,7 +279,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     margin: 0;
 }
 
-#body div#content div#home div.section h1 {
+main div#home div.section h1 {
     color: #8e7835;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 36px;
@@ -289,37 +289,37 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     margin: 0;
 }
 
-#body div#content div#home div.section ul {
+main div#home div.section ul {
     list-style: none;
     margin: 0;
     overflow: hidden;
     padding: 30px 0 0 50px;
 }
 
-#body div#content div#home div.section ul li, #body div#content div#services div.section ul li {
+main div#home div.section ul li, main div#services div.section ul li {
     background: url(../images/border.jpg) repeat-y 20px top;
     float: left;
     padding: 0 0 0 39px;
     /* width: 170px; */
 }
 
-#body div#content div#home div.section ul li:first-child {
+main div#home div.section ul li:first-child {
     background: none;
     padding: 0;
 }
 
-#body div#content div#home div.section ul li img {
+main div#home div.section ul li img {
     display: block;
     margin: 0 0 24px;
 }
 
-#body div#content div#services div.section ul li img {
+main div#services div.section ul li img {
     display: block;
     margin: 0 0 20px;
     height: 60vh;
 }
 
-#body div#content div#home div.section ul li h2 {
+main div#home div.section ul li h2 {
     color: #736e5f;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
@@ -329,18 +329,18 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     text-transform: uppercase;
 }
 
-#body div#content div#home div.sidebar {
+main div#home div.sidebar {
     float: right;
     width: 310px;
 }
 
-#body div#content div#home div.sidebar ul {
+main div#home div.sidebar ul {
     list-style: none;
     margin: 10px 0 0;
     padding: 0;
 }
 
-#body div#content div#home div.sidebar ul li {
+main div#home div.sidebar ul li {
     background: #1a1918;
     border-radius: 3px;
     height: 100px;
@@ -348,11 +348,11 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     padding: 13px 20px 10px;
 }
 
-#body div#content div#home div.sidebar ul li:first-child {
+main div#home div.sidebar ul li:first-child {
     margin: 0;
 }
 
-#body div#content div#home div.sidebar ul li span, #body div#content div#home div.sidebar ul li p a.readmore, #body div#content div#blog div.section ul li span, #body div#content div#blog div.section ul li p a.readmore, #body div#content div#blog div#article span {
+main div#home div.sidebar ul li span, main div#home div.sidebar ul li p a.readmore {
     color: #3d3c3a;
     display: block;
     font-size: 12px;
@@ -360,7 +360,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     line-height: 24px;
 }
 
-#body div#content div#home div.sidebar ul li h2 {
+main div#home div.sidebar ul li h2 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 14px;
     font-weight: normal;
@@ -369,17 +369,17 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     margin: 0;
 }
 
-#body div#content div#home div.sidebar ul li p {
+main div#home div.sidebar ul li p {
     letter-spacing: 0.024em;
 }
 
-#body div#content div#home div.sidebar ul li p a.readmore {
+main div#home div.sidebar ul li p a.readmore {
     display: inline;
     text-decoration: none;
 }
 
 /* produk */
-#body div#content div#product ul {
+main div#produk ul {
     font-family: Georgia, "Times New Roman", Times, serif;
     list-style: none;
     margin: 0;
@@ -387,7 +387,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     padding: 15px 0 0;
 }
 
-#body div#content div#product ul li {
+main div#produk ul li {
     float: left;
     margin: 0 0 40px;
     overflow: hidden;
@@ -395,7 +395,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     margin-right: 15px;
 }
 
-#body div#content div#product ul li img {
+main div#produk ul li img {
     border: 1px solid #222222;
     display: block;
     float: left;
@@ -404,7 +404,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     height: 50vh;
 }
 
-#body div#content div#product ul li h2 {
+main div#produk ul li h2 {
     color: #736e5f;
     font-size: 16px;
     letter-spacing: 0.025em;
@@ -413,11 +413,11 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     text-transform: uppercase;
 }
 
-#body div#content div#product ul li p {
+main div#produk ul li p {
     letter-spacing: 0.025em;
 }
 
-#body div#content div#product ul li span {
+main div#produk ul li span {
     background: #2e2d2a;
     border-radius: 3px;
     display: inline-block;
@@ -431,17 +431,17 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
 }
 
 /* layanan */
-#body div#content div#services {
+main div#services {
     padding: 15px 0 0;
 }
 
-#body div#content div#services div.section {
+main div#services div.section {
     float: left;
     padding: 0 0 0 10px;
     width: 100%;
 }
 
-#body div#content div#services div.section ul li {
+main div#services div.section ul li {
     background: none;
     padding: 0;
     width: 48%;
@@ -451,7 +451,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     color: cadetblue;
 }
 
-#body div#content div#services div.section h2 {
+main div#services div.section h2 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 20px;
     font-weight: normal;
@@ -461,18 +461,18 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 430px;
 }
 
-#body div#content div#services div.section ul {
+main div#services div.section ul {
     list-style: none;
     margin: 0;
     overflow: hidden;
     padding: 18px 0 30px;
 }
 
-#body div#content div#services div.section div {
+main div#services div.section div {
     overflow: hidden;
 }
 
-#body div#content div#services div.section div span {
+main div#services div.section div span {
     display: block;
     float: left;
     letter-spacing: 0.05em;
@@ -481,7 +481,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 270px;
 }
 
-#body div#content div#services div.section div ul {
+main div#services div.section div ul {
     list-style: disc;
     float: left;
     margin: 0 0 0 38px;
@@ -489,7 +489,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 295px;
 }
 
-#body div#content div#services div.section div ul li {
+main div#services div.section div ul li {
     background: none;
     float: none;
     letter-spacing: 0.025em;
@@ -497,7 +497,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: auto;
 }
 
-#body div#content div#services div.sidebar {
+main div#services div.sidebar {
     background: #2e2d2a;
     border-radius: 3px;
     color: #948d78;
@@ -507,7 +507,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 220px;
 }
 
-#body div#content div#services div.sidebar h3 {
+main div#services div.sidebar h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
     font-weight: normal;
@@ -516,32 +516,32 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     margin: 0;
 }
 
-#body div#content div#services div.sidebar p {
+main div#services div.sidebar p {
     letter-spacing: 0.05em;
     padding: 0 0 10px;
 }
 
-#body div#content div#services div.sidebar div {
+main div#services div.sidebar div {
     border-top: 1px solid #22201f;
     padding: 15px 0;
 }
 
-#body div#content div#services div.sidebar div p {
+main div#services div.sidebar div p {
     padding: 0;
 }
 
-#body div#content div#services div.sidebar div.first {
+main div#services div.sidebar div.first {
     border: none;
 }
 
-#body div#content div#services div.sidebar div a {
+main div#services div.sidebar div a {
     color: #948d78;
     letter-spacing: 0.025em;
     line-height: 24px;
     text-decoration: none;
 }
 
-#body div#content div#services div.sidebar div span {
+main div#services div.sidebar div span {
     display: block;
     font-family: Georgia, "Times New Roman", Times, serif;
     letter-spacing: 0.05em;
@@ -549,14 +549,14 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
 }
 
 /* tentang */
-#body div#content div#about {
+main div#about {
     margin: 0 auto;
     overflow: hidden;
     padding: 0 10px;
     width: 920px;
 }
 
-#body div#content div#about h3 {
+main div#about h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
     font-weight: normal;
@@ -566,47 +566,47 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     padding: 25px 0 0;
 }
 
-#body div#content div#about h3:first-child {
+main div#about h3:first-child {
     padding: 5px 0 0;
 }
 
 /* kontak */
-#body div#content div#about p, #body div#content div#contact p {
+main div#about p, main div#contact p {
     letter-spacing: 0.05em;
     line-height: 30px;
     text-align: justify;
 }
 
-#body div#content div#contact div div p {
+main div#contact div div p {
     line-height: 24px;
 }
 
-#body div#content div#contact div div p a.email {
+main div#contact div div p a.email {
     color: #736E5F;
     text-decoration: none;
 }
 
-#body div#content div#contact {
+main div#contact {
     margin: 0 auto;
     overflow: hidden;
     padding: 5px 10px 0;
     width: 920px;
 }
 
-#body div#content div#contact div {
+main div#contact div {
     background: url(../images/bg-border.png) repeat-y center top;
     overflow: hidden;
     margin: 44px 0 0;
 }
 
-#body div#content div#contact div div {
+main div#contact div div {
     background: none;
     float: left;
     margin: 0;
     width: 335px;
 }
 
-#body div#content div#contact div div h3, #body div#content div#contact div form h3 {
+main div#contact div div h3, main div#contact div form h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
     font-weight: normal;
@@ -617,27 +617,27 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     text-transform: uppercase;
 }
 
-#body div#content div#contact div div h3:first-child {
+main div#contact div div h3:first-child {
     padding: 0;
 }
 
-#body div#content div#contact div form {
+main div#contact div form {
     float: right;
     width: 512px;
 }
 
-#body div#content div#contact div form h3 {
+main div#contact div form h3 {
     padding: 0;
     margin: 0;
 }
 
-#body div#content div#contact div form label {
+main div#contact div form label {
     display: block;
     overflow: hidden;
     margin: 10px 0 0;
 }
 
-#body div#content div#contact div form label span {
+main div#contact div form label span {
     display: block;
     float: left;
     line-height: 30px;
@@ -645,7 +645,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 110px;
 }
 
-#body div#content div#contact div form label input#name, #body div#content div#contact div form label input#email {
+main div#contact div form label input#name, main div#contact div form label input#email {
     border: none;
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
@@ -658,11 +658,11 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 390px;
 }
 
-#body div#content div#contact div form label span.message {
+main div#contact div form label span.message {
     vertical-align: top;
 }
 
-#body div#content div#contact div form label textarea {
+main div#contact div form label textarea {
     border: none;
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
@@ -676,7 +676,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 390px;
 }
 
-#body div#content div#contact div form input#submit {
+main div#contact div form input#submit {
     background: #2f2d2b;
     border: none;
     border-radius: 3px;
@@ -690,45 +690,45 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
 }
 
 /* footer */
-#footer {
+footer {
     font-family: Georgia, "Times New Roman", Times, serif;
     padding: 0 20px;
     width: 97%;
 }
 
-#footer div {
+footer {
     overflow: hidden;
     padding: 40px 0 0;
 }
 
-#footer div div.first {
+footer div.first {
     float: left;
     padding: 0;
     width: 50%;
     margin-left: 30px;
 }
 
-#footer div div.first p {
+footer div.first p {
     letter-spacing: 0.05em;
     text-align: justify;
 }
 
-#footer div div.last {
+footer div.last {
     float: right;
     padding: 0;
     width: 40%;
 }
 
-#footer div div.last div {
+footer div.last div {
     padding: 5px 0 15px;
 }
 
-#footer div div.last form {
+footer div.last form {
     overflow: hidden;
     margin: 0;
 }
 
-#footer div div.last form input#newsletter {
+footer div.last form input#newsletter {
     border: none;
     color: #636466;
     display: block;
@@ -743,7 +743,7 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 270px;
 }
 
-#footer div div.last form input#go {
+footer div.last form input#go {
     background: #4b4946;
     border: none;
     color: #ffffff;
@@ -759,11 +759,13 @@ p a:hover, #footer div div.last div a:hover, #body div#content div#product ul li
     width: 50px;
 }
 
-#footer p.footnote {
+footer p.footnote {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    letter-spacing: 0.075em;
+    letter-spacing: 1px;
     line-height: 75px;
     text-align: center;
+    width: 100%;
+    margin-top: 145px;
 }
