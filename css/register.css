@@ -1,0 +1,86 @@
+/* edit background */
+body {
+    background: url(../assets/ciprian-boiciuc-CXdeJI3bD2U-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: 0 -500px;
+    background-repeat: no-repeat;
+}
+
+/* edit register */
+.register {
+    background-color: rgba(142, 202, 302, 0.9);
+    margin: 70px auto;
+    border-radius: 10px;
+    border: 10px;
+    width: fit-content;
+}
+
+.register .wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.register h1 {
+    color: #023047;
+    padding-bottom: 20px;
+    padding-top: 14px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.register input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #023047;
+    color:#8ECAE6;
+}
+
+.register input::placeholder {
+    color: #219EBC;
+}
+
+.register-username.wrapper, .register-password.wrapper, .register-password-confirm.wrapper {
+    flex-direction: row;
+}
+
+.register-username, .register-password-confirm {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #023047;
+    background-color: #023047;
+    border-radius: 10px;
+}
+
+.register-password {
+    padding: 10px 11px;
+    border: 1px solid #023047;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #023047;
+}
+
+.register-password-confirm {
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #023047;
+    background-color: #023047;
+    border-radius: 10px;
+}
+
+
+.register .fa-user-alt, .fa-lock, .fa-envelope, .fa-phone-alt {
+    padding-right: 8px;
+    color: #219EBC;
+}
+
+.btn-daftar {
+    padding: 10px 25px;
+    color: #219EBC;
+    background-color: #023047;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
