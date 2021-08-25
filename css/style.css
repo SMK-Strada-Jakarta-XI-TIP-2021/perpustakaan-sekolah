@@ -69,7 +69,7 @@ h1 {
 .login input[type="submit"]:hover {
     cursor: pointer;
     background: #E33D56;
-    color: #fff;
+    color: rgb(247, 218, 218);
 }
 
 /* Navigation Menu*/
