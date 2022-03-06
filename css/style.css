@@ -13,6 +13,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Racing Sans One', cursive; */
     width: 100%;
 }
 
@@ -37,15 +38,11 @@ section {
     min-height: 100vh;
 }
 
-.hold {
-    color: #FB8500;
-}
-
 /* header */
 header {
-    background-color: #023047;
-    color: #8ECAE6;
-    padding: 20px 100px;
+    background-color: #FEF9EF;
+    color: black;
+    padding: 10px 100px;
     display: inline-block;
     width: inherit;
 }
@@ -54,7 +51,6 @@ header .logo {
     float: left;
     width: 45px;
     margin-top: 8px;
-    color: #219EBC;
 }
 
 nav {
@@ -68,28 +64,24 @@ nav li {
     padding: 0 10px;
 }
 
-nav li a:hover {
-    color: #FB8500;
+nav li a:hover:not(li button a) {
+    color: #FF865E;
 }
 
 nav li button {
-    margin-left: 50px;
+    margin-left: 25px;
     margin-right: -25px;
-    padding: 14px 35px;
-    background-color: #194860;
-    color: white;
-    font-size: 18px;
+    padding: 12px 14px;
+    background-color: #FEE440;
     border: none;
     font-weight: 700;
     border-radius: 5px;
 }
 
-
 /* edit banner */
 .banner {
     margin-top: -4px;
 }
-
 
 .banner .slider-items img {
     height: 80vh;
@@ -111,7 +103,7 @@ nav li button {
   cursor: pointer;
   top: 40%;
   left: 10px;
-  color: #219EBC;
+  color: #FF865E;
 }
 
 .slider .right-slide .fa-caret-right {
@@ -121,7 +113,7 @@ nav li button {
     cursor: pointer;
 	top: 40%;
     right: 10px;
-    color: #219EBC;
+    color: #FF865E;
 }
 
 .slider .slider-items .item img {
@@ -145,9 +137,9 @@ nav li button {
     left: 0px;
     right: 0;
     top: 0;
-    background-color: rgba(2,48,71,0.4);
+    background-color: rgba(66,17,0,0.3);
     text-align: center;
-    color: white;
+    color: #FEF9EF;
 }
 
 .slider .slider-items .item .caption-request {
@@ -157,9 +149,9 @@ nav li button {
     left: 0px;
     right: 0;
     top: 0;
-    background-color: rgba(2,48,71,0.4);
+    background-color: rgba(66,17,0,0.3);
     text-align: center;
-    color: white;
+    color: #FEF9EF;
 }
 
 .slider .slider-items .item .caption h1 {
@@ -187,13 +179,14 @@ nav li button {
 }
 
 .most-popular .judul {
-    margin: 0 100px;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     padding-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 24px;
-    color:#023047;
+    color: black;
     font-weight: 500;
-    border-bottom: 1px solid #219EBC;
+    border-bottom: 1px solid #FF865E;
 }
 
 .most-popular .daftar-buku .wrapper {
@@ -224,7 +217,7 @@ nav li button {
 
 .most-popular .daftar-buku .buku h3 {
     /* color: #023047; */
-    color: #FB8500;
+    color: black;
     font-weight: 500;
     padding-bottom: 3px;
     padding-left: 5px;
@@ -236,8 +229,8 @@ nav li button {
 }
 
 .most-popular .daftar-buku .buku p{
-    color: #023047;
-    font-weight: 400;
+    color: #FF865E;
+    /* color: #c75733; */
     padding-left: 5px;
 }
 
@@ -261,18 +254,18 @@ nav li button {
 }
 
 .m-libary-text, .request-text, .collection-text {
-    background-color: #023047;
-    color: #8ECAE6;
+    background-color: #CCBBA8;
+    color: black;
 }
 
 .m-libary-text h2, .collection-text h2, .request-text h2 {
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 20px;
     margin-left: 20px;
 }
 
 .m-libary-text h4, .collection-text h4, .request-text h4 {
-    color: #FFB703;
+    color: black;
     font-weight: 400;
     margin-top: 10px;
     margin-left: 20px;
@@ -282,7 +275,7 @@ nav li button {
 /* edit footer */
 footer {
     padding: 12px 0;
-    background-color: #8ECAE6;
+    background-color: #FEF9EF;
 }
 
 footer .wrapper {
@@ -291,7 +284,7 @@ footer .wrapper {
 }
 
 footer p {
-    color: #023047;
+    color: black;
     font-weight: 500;
     padding-left: 20px;
     align-self: center;
@@ -304,11 +297,11 @@ footer p {
 .sosial-media .fa-facebook-square, .fa-twitter-square, .fa-instagram{
     font-size: 24px;
     padding-right: 15px;
-    color: white;
+    color: #FF865E;
 }
 
 .sosial-media .fa-envelope {
     padding-right: 70px;
-    color: white;
+    color: #FF865E;
     font-size: 24px;
 } 

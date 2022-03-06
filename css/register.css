@@ -5,11 +5,12 @@ body {
     background-blend-mode: multiply;
     background-position: 0 -500px;
     background-repeat: no-repeat;
+    padding: 10px 0;
 }
 
 /* edit register */
 .register {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #FEF9EF;
     margin: 70px auto;
     border-radius: 10px;
     border: 10px;
@@ -22,7 +23,7 @@ body {
 }
 
 .register h1 {
-    color: #023047;
+    color: black;
     padding-bottom: 20px;
     padding-top: 14px;
     padding-right: 120px;
@@ -33,12 +34,12 @@ body {
     width: 100%;
     outline: none;
     border: none;
-    background-color: #023047;
-    color:#8ECAE6;
+    background-color: #FEF9EF;
+    color:black;
 }
 
 .register input::placeholder {
-    color: #219EBC;
+    color: black;
 }
 
 .register-username.wrapper, .register-password.wrapper, .register-password-confirm.wrapper {
@@ -48,39 +49,40 @@ body {
 .register-username, .register-password-confirm {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #023047;
-    background-color: #023047;
+    border: 1.5px solid #FF865E;
+    background-color: #FEF9EF;
     border-radius: 10px;
 }
 
 .register-password {
     padding: 10px 11px;
-    border: 1px solid #023047;
+    border: 1.5px solid #FF865E;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-color: #023047;
+    background-color: #FEF9EF;
 }
 
 .register-password-confirm {
     padding: 10px;
     margin-bottom: 40px;
-    border: 1px solid #023047;
-    background-color: #023047;
+    border: 1.5px solid #FF865E;
+    background-color: #FEF9EF;;
     border-radius: 10px;
 }
 
 
 .register .fa-user-alt, .fa-lock, .fa-envelope, .fa-phone-alt {
     padding-right: 8px;
-    color: #219EBC;
+    color: #FF865E;
 }
 
 .btn-daftar {
-    padding: 10px 25px;
-    color: #219EBC;
-    background-color: #023047;
+    padding: 10px 45px;
+    color: black;
+    font-weight: 700;
+    background-color: #FEE440;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 20px;
     cursor: pointer;
 }

@@ -8,7 +8,7 @@ body {
 
 /* edit login */
 .login {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #FEF9EF;
     margin: 100px auto;
     border-radius: 10px;
     border: 10px;
@@ -21,7 +21,7 @@ body {
 }
 
 .login h1 {
-    color: #023047;
+    color: black;
     padding-bottom: 20px;
     padding-top: 14px;
 }
@@ -30,12 +30,12 @@ body {
     width: 100%;
     outline: none;
     border: none;
-    background-color: #023047;
-    color:#8ECAE6;
+    background-color: #FEF9EF;
+    color:black;
 }
 
 .login input::placeholder {
-    color: #219EBC;
+    color: black ;
 }
 
 .login-username.wrapper, .login-password.wrapper {
@@ -45,37 +45,41 @@ body {
 .login-username {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #023047;
-    background-color: #023047;
+    border: 1.5px solid #FF865E;
+    background-color: #FEF9EF;;
     border-radius: 10px;
 }
 
 .login-password {
     padding: 10px 11px;
-    border: 1px solid #023047;
+    border: 1.5px solid #FF865E;
     border-radius: 10px;
-    background-color: #023047;
+    background-color: #FEF9EF;
 }
 
 .login .fa-user-alt, .fa-lock {
     padding-right: 8px;
-    color: #219EBC;
+    color: #FF865E;
 }
 
 .btn-login {
-    padding: 10px 25px;
-    color: #219EBC;
-    background-color: #023047;
+    padding: 10px 65px;
+    background-color: #FEE440;
     border: none;
-    border-radius: 10px;
     margin-bottom: 20px;
+    border-radius: 5px;
     cursor: pointer;
+}
+
+.btn-login a {
+    color:black;
+    font-weight: 700;
 }
 
 .forgot-password {
     font-size: 12px;
     font-weight: 400;
-    color:#023047;
+    color: #FF865E;
     padding-bottom: 40px;
     padding-right: 140px;
     padding-top: 4px;
@@ -87,14 +91,14 @@ p {
     text-align: center;
     font-size: 12px;
     font-weight: 500;
-    color:#023047;
+    color:black;
     padding-bottom: 14px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 p a {
-    color: #FB8500;
+    color: #FF865E;
     text-decoration: underline;
     font-weight: 700;
 }

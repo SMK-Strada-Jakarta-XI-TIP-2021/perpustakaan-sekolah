@@ -1,3 +1,8 @@
+/* edit header */
+header nav {
+    padding-top: 0;
+}
+
 /* edit contact */
 .contact {
     padding: 100px;
@@ -9,12 +14,12 @@
     justify-content: flex-start;
 }
 
+/* edit input */
 .name input, .e-mail input, .number-phone input {
     padding: 5px;
     margin-right: 10px;
     width: 300px;
-    border: 1px solid #023047;
-    color: #023047;
+    border: 1px solid black;
     outline: none;
 }
 
@@ -28,21 +33,16 @@
     padding-right: 5px;
     padding-bottom: 250px;
     width: 920px;
-    border: 1px solid #023047;
-    color: #023047;
+    border: 1px solid black;
     outline: none;
 }
 
-.name input::placeholder, .e-mail input::placeholder, .number-phone input::placeholder, .message input::placeholder{
-    color: #023047;
-}
-
+/* edit message */
 button {
     padding: 12px 40px;
-    background-color: #023047;
+    background-color: #FEE440;
     outline: none;
     border: none;
-    color: white;
     font-weight: 500;
     margin-top: 10px;
     cursor: pointer;

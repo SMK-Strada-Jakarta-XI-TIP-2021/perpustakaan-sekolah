@@ -17,40 +17,29 @@
 .b-name input, .publisher input, .author input, .number-phone input {
     padding: 5px 10px;
     width: 495px;
-    border: 1px solid #023047;
+    border: 1px solid black;
     outline: none;
-    color: #023047;
 }
 
-.b-name input::placeholder, .publisher input::placeholder, .author input::placeholder, .number-phone input::placeholder {
-    color: #023047;
-}
-
-.upload h4 {
-    padding-bottom: 5px;
-    color: #023047;
-}
 
 .u-photo {
     width: 1000px;
     height: 500px;
-    border: 1px solid #023047;
+    border: 1px solid black;
     outline: none;
 }
 
 .fa-plus {
     font-size: 64px;
-    color: #219EBC;
     margin-top: 217px;
     margin-left: 471px;
 }
 
 button {
     padding: 12px 40px;
-    background-color: #023047;
+    background-color: #FEE440;
     outline: none;
     border: none;
-    color: white;
     font-weight: 500;
     margin-left: 10px;
     cursor: pointer;

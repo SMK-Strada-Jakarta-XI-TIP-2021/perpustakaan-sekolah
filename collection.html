@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/collection.css">
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <!-- link googlefont -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     <header>
         <!-- logo -->
         <div class="logo">
-            <img src="assets/school.svg" alt="logo" title="logo">
+            <img src="assets/school 1.svg" alt="logo" title="logo">
         </div>
         <!-- menu -->
         <nav>
@@ -47,61 +47,34 @@
                 <div class="wrapper">
                     <div class="button">
                         <div class="wrapper">
-                            <div class="sort">
-                                <div class="container">
-                                    <div class="wrapper">
-                                        <p class="s-title">Sort</p>
-                                        <i class="fas fa-sort"></i>
-                                    </div> 
-                                    <div class="drop-down">
-                                        <div class="wrapper">
-                                            <div class="a-z">
-                                                <p class="az-p">A - Z</p>
-                                            </div>
-                                            <div class="z-a">
-                                                <p class="za-p">Z - A</p>
-                                            </div>
-                                            <div class="newest">
-                                                <p class="p-newest">newest</p>
-                                            </div>
-                                            <div class="oldest">
-                                                <p class="p-oldest">oldest</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="dropdown">
+                                <div class="dropbtn" onclick="myFunction()">
+                                  Sort
+                                  <i class="fas fa-sort"></i>
                                 </div>
-                            </div> 
-                            <div class="category">
-                                <div class="container">
-                                    <div class="wrapper">
-                                        <p class="c-title">Category</p>
-                                        <i class="fas fa-sort"></i>
-                                    </div>
-                                    <div class="drop-down">
-                                        <div class="wrapper">
-                                            <div class="business">
-                                                <p>Business</p>
-                                            </div>
-                                            <div class="language">
-                                                <p>Language</p>
-                                            </div>
-                                            <div class="programing">
-                                                <span>Programing Language</span>
-                                            </div>
-                                            <div class="investment">
-                                                <p>Investment</p>
-                                            </div>
-                                            <div class="motivate">
-                                                <p>Motivate</p>
-                                            </div>
-                                            <div class="design">
-                                                <p>Design</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#A-Z">A - Z</a>
+                                  <a href="#Z-A">Z - A</a>
+                                  <a href="#Newest">Newest</a>
+                                  <a href="#Oldest">Oldest</a>
                                 </div>
                             </div>
-                        </div>  
+
+                            <div class="dropdown">
+                                <div class="drop-btn" onclick="superman()">
+                                    Category
+                                    <i class="fas fa-sort"></i>
+                                </div>
+                                <div id="batman" class="dropdown-content-category">
+                                  <a href="#A-Z">Business</a>
+                                  <a href="#Z-A">Language</a>
+                                  <a href="#Newest">Programing Language</a>
+                                  <a href="#Oldest">Investment</a>
+                                  <a href="#Oldest">Motivate</a>
+                                  <a href="#Oldest">Design</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="pencarian">
                         <i class="fas fa-search"></i>
